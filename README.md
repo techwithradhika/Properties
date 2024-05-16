@@ -10,21 +10,21 @@ This API provides endpoints for managing properties, including creating new prop
 
 ## Features
 
-- **Create new property**
+- **Create new property :**
    input: property name, address, city, and state.
-	 Output: list of properties with all details.
-- **fetch property details**
+   Output: list of properties with all details.
+- **fetch property details :**
    Input: city name.
-	 Output: a list of all properties that belong to the city name passed in the input
-- **update property details**
-   	Input: property_id, property name, address, city, state
-  	Output: same as create_new_property API with updated information
-- **find_cities_by_state** 
-		Input: state_id or state_name
-		Output: all city names that belong with the state
-- **find_similar_properties** 
+   Output: a list of all properties that belong to the city name passed in the input
+- **update property details :**
+  Input: property_id, property name, address, city, state
+  Output: same as create_new_property API with updated information
+- **find_cities_by_state :** 
+Input: state_id or state_name
+Output: all city names that belong with the state
+- **find_similar_properties :** 
     Input: property_id
-		Output: list of all properties that belong to the same city as that of given property_id
+    Output: list of all properties that belong to the same city as that of given property_id
 
 ## Installation
 
