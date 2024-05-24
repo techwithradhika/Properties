@@ -35,6 +35,6 @@ To run this project locally, follow these steps:
 3. Install virtual environment (recommended): pip install virtualenv
 4. Create a virtual environment: python -m virtualenv venv
 5. Activate the virtual environment: .\venv\Scripts\activate
-6. Install Django and other backend dependencies: pip install fastapi pymongo uvicorn
+6. Install the dependencies: pip install fastapi pymongo uvicorn
 7. Start the FastAPI server: uvicorn app:app --reload (Note: Make sure MongoDB server is running).
 8. The server will start running at http://127.0.0.1:8000, access the api Endpoints at http://127.0.0.1:8000/docs .
